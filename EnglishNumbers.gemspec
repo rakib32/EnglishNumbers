@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "EnglishNumbers"
   spec.version       = EnglishNumbers::VERSION
   spec.authors       = ["Rakib"]
-  spec.email         = ["rakib.hasan@widespace.com"]
+  spec.email         = ["rakibul.mist32@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This plugin will convert given number to verbal english text.}
+  spec.description   = %q{This plugin will convert given number to verbal english text}
+  spec.homepage      = "https://github.com/rakib32/EnglishNumbers"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
