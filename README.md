@@ -2,7 +2,60 @@
 
 This plugin will take number as a input and will convert it to verbal text. 
 
-## Installation
+## Project Setup for Development(MAC)
+
+Check if bundle is installed or not
+
+```
+    bundle -v
+```
+
+if not installed then use following command to install it:
+
+```
+    gem install bundler
+```
+
+Clone the repo using following command: 
+
+```
+    git clone https://github.com/rakib32/EnglishNumbers.git
+```
+
+Go to repo directory and run following command to install dependencies:
+
+```
+    cd EnglishNumbers
+    sudo bundle install
+```
+
+## Test the plugin
+
+Use following command to run the tests:
+
+```
+    rake spec
+```
+
+Use following command to enter the console:
+
+```
+    bin/console 
+```
+
+Then test by inserting:
+
+```
+    EnglishNumber.new(73).in_english
+```
+
+I have also added single plugin file. If you want you can also test that file as well:
+
+```
+    ruby EnglishNumber.rb
+```
+
+## Installation (to use it in different project)
 
 Add this line to your application's Gemfile:
 
@@ -20,7 +73,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+    EnglishNumber.new(73).in_english   seventy three 
+```
 
 ## Development
 
